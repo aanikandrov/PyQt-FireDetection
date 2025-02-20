@@ -17,5 +17,6 @@
 Примеры вывода информации о детекции в прикреплённых TXT и XML файлах
 
 
-![image](https://github.com/user-attachments/assets/2fb4c277-8171-4193-8fe6-890357af1d40)
+![image](https://github.com/user-attachments/assets/2668fc01-c026-4db4-8567-d7606ca4c0fe)
+
 
