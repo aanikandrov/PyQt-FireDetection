@@ -1,0 +1,391 @@
+<?xml version="1.0" ?>
+<Frames>
+  <Frame number="0">
+    <Classes/>
+    <Locations/>
+    <Sizes/>
+  </Frame>
+  <Frame number="1">
+    <Classes>fire - 1, smoke - 1</Classes>
+    <Locations>
+      <Location>fire.1 - (403.50, 232.50)</Location>
+      <Location>smoke.1 - (320.00, 73.50)</Location>
+    </Locations>
+    <Sizes>
+      <Size>fire.1 - (97, 181)</Size>
+      <Size>smoke.1 - (640, 147)</Size>
+    </Sizes>
+  </Frame>
+  <Frame number="2">
+    <Classes>fire - 1, smoke - 1</Classes>
+    <Locations>
+      <Location>fire.1 - (421.50, 275.50)</Location>
+      <Location>smoke.1 - (321.50, 165.50)</Location>
+    </Locations>
+    <Sizes>
+      <Size>fire.1 - (103, 189)</Size>
+      <Size>smoke.1 - (637, 329)</Size>
+    </Sizes>
+  </Frame>
+  <Frame number="3">
+    <Classes>smoke - 2, fire - 1</Classes>
+    <Locations>
+      <Location>smoke.1 - (235.00, 257.00)</Location>
+      <Location>fire.1 - (435.00, 287.00)</Location>
+      <Location>smoke.2 - (602.50, 304.50)</Location>
+    </Locations>
+    <Sizes>
+      <Size>smoke.1 - (364, 158)</Size>
+      <Size>fire.1 - (100, 178)</Size>
+      <Size>smoke.2 - (73, 185)</Size>
+    </Sizes>
+  </Frame>
+  <Frame number="4">
+    <Classes>fire - 1, smoke - 1</Classes>
+    <Locations>
+      <Location>fire.1 - (426.50, 284.00)</Location>
+      <Location>smoke.1 - (224.00, 252.00)</Location>
+    </Locations>
+    <Sizes>
+      <Size>fire.1 - (101, 180)</Size>
+      <Size>smoke.1 - (368, 162)</Size>
+    </Sizes>
+  </Frame>
+  <Frame number="5">
+    <Classes>fire - 1, smoke - 2</Classes>
+    <Locations>
+      <Location>fire.1 - (440.00, 264.50)</Location>
+      <Location>smoke.1 - (235.00, 234.00)</Location>
+      <Location>smoke.2 - (325.00, 106.50)</Location>
+    </Locations>
+    <Sizes>
+      <Size>fire.1 - (104, 181)</Size>
+      <Size>smoke.1 - (378, 158)</Size>
+      <Size>smoke.2 - (630, 211)</Size>
+    </Sizes>
+  </Frame>
+  <Frame number="6">
+    <Classes>fire - 1, smoke - 3</Classes>
+    <Locations>
+      <Location>fire.1 - (440.00, 202.00)</Location>
+      <Location>smoke.1 - (329.00, 169.00)</Location>
+      <Location>smoke.2 - (321.00, 48.00)</Location>
+      <Location>smoke.3 - (331.50, 110.00)</Location>
+    </Locations>
+    <Sizes>
+      <Size>fire.1 - (102, 182)</Size>
+      <Size>smoke.1 - (560, 160)</Size>
+      <Size>smoke.2 - (634, 96)</Size>
+      <Size>smoke.3 - (613, 220)</Size>
+    </Sizes>
+  </Frame>
+  <Frame number="7">
+    <Classes>fire - 1, smoke - 2</Classes>
+    <Locations>
+      <Location>fire.1 - (357.00, 188.00)</Location>
+      <Location>smoke.1 - (320.50, 107.00)</Location>
+      <Location>smoke.2 - (234.00, 143.00)</Location>
+    </Locations>
+    <Sizes>
+      <Size>fire.1 - (102, 186)</Size>
+      <Size>smoke.1 - (639, 214)</Size>
+      <Size>smoke.2 - (466, 194)</Size>
+    </Sizes>
+  </Frame>
+  <Frame number="8">
+    <Classes>fire - 1, smoke - 1</Classes>
+    <Locations>
+      <Location>fire.1 - (325.50, 190.50)</Location>
+      <Location>smoke.1 - (153.00, 161.00)</Location>
+    </Locations>
+    <Sizes>
+      <Size>fire.1 - (101, 185)</Size>
+      <Size>smoke.1 - (306, 166)</Size>
+    </Sizes>
+  </Frame>
+  <Frame number="9">
+    <Classes>fire - 1, smoke - 1</Classes>
+    <Locations>
+      <Location>fire.1 - (277.00, 199.00)</Location>
+      <Location>smoke.1 - (131.50, 165.50)</Location>
+    </Locations>
+    <Sizes>
+      <Size>fire.1 - (102, 180)</Size>
+      <Size>smoke.1 - (263, 163)</Size>
+    </Sizes>
+  </Frame>
+  <Frame number="10">
+    <Classes>smoke - 2, fire - 1</Classes>
+    <Locations>
+      <Location>smoke.1 - (134.00, 180.00)</Location>
+      <Location>fire.1 - (283.50, 212.00)</Location>
+      <Location>smoke.2 - (505.50, 199.00)</Location>
+    </Locations>
+    <Sizes>
+      <Size>smoke.1 - (268, 160)</Size>
+      <Size>fire.1 - (97, 178)</Size>
+      <Size>smoke.2 - (227, 230)</Size>
+    </Sizes>
+  </Frame>
+  <Frame number="11">
+    <Classes>fire - 1, smoke - 2</Classes>
+    <Locations>
+      <Location>fire.1 - (285.50, 214.00)</Location>
+      <Location>smoke.1 - (133.00, 182.00)</Location>
+      <Location>smoke.2 - (505.00, 222.50)</Location>
+    </Locations>
+    <Sizes>
+      <Size>fire.1 - (99, 178)</Size>
+      <Size>smoke.1 - (266, 160)</Size>
+      <Size>smoke.2 - (230, 179)</Size>
+    </Sizes>
+  </Frame>
+  <Frame number="12">
+    <Classes>smoke - 2, fire - 1</Classes>
+    <Locations>
+      <Location>smoke.1 - (135.50, 180.00)</Location>
+      <Location>fire.1 - (287.50, 212.00)</Location>
+      <Location>smoke.2 - (510.50, 203.50)</Location>
+    </Locations>
+    <Sizes>
+      <Size>smoke.1 - (271, 160)</Size>
+      <Size>fire.1 - (97, 180)</Size>
+      <Size>smoke.2 - (223, 231)</Size>
+    </Sizes>
+  </Frame>
+  <Frame number="13">
+    <Classes>smoke - 3, fire - 1</Classes>
+    <Locations>
+      <Location>smoke.1 - (135.50, 180.00)</Location>
+      <Location>fire.1 - (288.00, 211.00)</Location>
+      <Location>smoke.2 - (513.00, 222.00)</Location>
+      <Location>smoke.3 - (287.50, 209.50)</Location>
+    </Locations>
+    <Sizes>
+      <Size>smoke.1 - (271, 160)</Size>
+      <Size>fire.1 - (96, 178)</Size>
+      <Size>smoke.2 - (218, 192)</Size>
+      <Size>smoke.3 - (99, 173)</Size>
+    </Sizes>
+  </Frame>
+  <Frame number="14">
+    <Classes>fire - 1, smoke - 1</Classes>
+    <Locations>
+      <Location>fire.1 - (293.00, 206.50)</Location>
+      <Location>smoke.1 - (139.00, 175.00)</Location>
+    </Locations>
+    <Sizes>
+      <Size>fire.1 - (100, 177)</Size>
+      <Size>smoke.1 - (278, 160)</Size>
+    </Sizes>
+  </Frame>
+  <Frame number="15">
+    <Classes>fire - 1</Classes>
+    <Locations>
+      <Location>fire.1 - (281.50, 193.50)</Location>
+    </Locations>
+    <Sizes>
+      <Size>fire.1 - (99, 195)</Size>
+    </Sizes>
+  </Frame>
+  <Frame number="16">
+    <Classes>fire - 1, smoke - 1</Classes>
+    <Locations>
+      <Location>fire.1 - (241.00, 200.00)</Location>
+      <Location>smoke.1 - (114.50, 168.50)</Location>
+    </Locations>
+    <Sizes>
+      <Size>fire.1 - (100, 176)</Size>
+      <Size>smoke.1 - (229, 161)</Size>
+    </Sizes>
+  </Frame>
+  <Frame number="17">
+    <Classes>fire - 1, smoke - 1</Classes>
+    <Locations>
+      <Location>fire.1 - (243.50, 197.00)</Location>
+      <Location>smoke.1 - (114.00, 162.50)</Location>
+    </Locations>
+    <Sizes>
+      <Size>fire.1 - (101, 178)</Size>
+      <Size>smoke.1 - (228, 165)</Size>
+    </Sizes>
+  </Frame>
+  <Frame number="18">
+    <Classes>smoke - 1, fire - 1</Classes>
+    <Locations>
+      <Location>smoke.1 - (117.00, 170.50)</Location>
+      <Location>fire.1 - (249.50, 203.50)</Location>
+    </Locations>
+    <Sizes>
+      <Size>smoke.1 - (234, 163)</Size>
+      <Size>fire.1 - (99, 179)</Size>
+    </Sizes>
+  </Frame>
+  <Frame number="19">
+    <Classes>smoke - 1, fire - 1</Classes>
+    <Locations>
+      <Location>smoke.1 - (116.50, 186.50)</Location>
+      <Location>fire.1 - (249.50, 220.00)</Location>
+    </Locations>
+    <Sizes>
+      <Size>smoke.1 - (233, 157)</Size>
+      <Size>fire.1 - (97, 174)</Size>
+    </Sizes>
+  </Frame>
+  <Frame number="20">
+    <Classes>fire - 1, smoke - 1</Classes>
+    <Locations>
+      <Location>fire.1 - (199.00, 220.00)</Location>
+      <Location>smoke.1 - (91.50, 188.50)</Location>
+    </Locations>
+    <Sizes>
+      <Size>fire.1 - (100, 180)</Size>
+      <Size>smoke.1 - (183, 161)</Size>
+    </Sizes>
+  </Frame>
+  <Frame number="21">
+    <Classes>fire - 1, smoke - 2</Classes>
+    <Locations>
+      <Location>fire.1 - (199.50, 219.50)</Location>
+      <Location>smoke.1 - (91.50, 188.00)</Location>
+      <Location>smoke.2 - (420.00, 237.00)</Location>
+    </Locations>
+    <Sizes>
+      <Size>fire.1 - (99, 179)</Size>
+      <Size>smoke.1 - (183, 162)</Size>
+      <Size>smoke.2 - (202, 150)</Size>
+    </Sizes>
+  </Frame>
+  <Frame number="22">
+    <Classes>fire - 1, smoke - 3</Classes>
+    <Locations>
+      <Location>fire.1 - (193.50, 217.50)</Location>
+      <Location>smoke.1 - (87.50, 185.00)</Location>
+      <Location>smoke.2 - (418.00, 228.50)</Location>
+      <Location>smoke.3 - (467.50, 228.00)</Location>
+    </Locations>
+    <Sizes>
+      <Size>fire.1 - (99, 175)</Size>
+      <Size>smoke.1 - (175, 164)</Size>
+      <Size>smoke.2 - (198, 147)</Size>
+      <Size>smoke.3 - (99, 148)</Size>
+    </Sizes>
+  </Frame>
+  <Frame number="23">
+    <Classes>fire - 1, smoke - 2</Classes>
+    <Locations>
+      <Location>fire.1 - (194.50, 205.00)</Location>
+      <Location>smoke.1 - (88.50, 175.50)</Location>
+      <Location>smoke.2 - (416.50, 220.50)</Location>
+    </Locations>
+    <Sizes>
+      <Size>fire.1 - (101, 180)</Size>
+      <Size>smoke.1 - (177, 165)</Size>
+      <Size>smoke.2 - (203, 151)</Size>
+    </Sizes>
+  </Frame>
+  <Frame number="24">
+    <Classes>fire - 1, smoke - 1</Classes>
+    <Locations>
+      <Location>fire.1 - (196.00, 197.00)</Location>
+      <Location>smoke.1 - (90.50, 163.50)</Location>
+    </Locations>
+    <Sizes>
+      <Size>fire.1 - (102, 182)</Size>
+      <Size>smoke.1 - (181, 167)</Size>
+    </Sizes>
+  </Frame>
+  <Frame number="25">
+    <Classes>fire - 1, smoke - 2</Classes>
+    <Locations>
+      <Location>fire.1 - (197.00, 195.50)</Location>
+      <Location>smoke.1 - (91.00, 162.50)</Location>
+      <Location>smoke.2 - (417.00, 216.00)</Location>
+    </Locations>
+    <Sizes>
+      <Size>fire.1 - (102, 183)</Size>
+      <Size>smoke.1 - (182, 165)</Size>
+      <Size>smoke.2 - (206, 158)</Size>
+    </Sizes>
+  </Frame>
+  <Frame number="26">
+    <Classes>fire - 1, smoke - 3</Classes>
+    <Locations>
+      <Location>fire.1 - (201.00, 201.00)</Location>
+      <Location>smoke.1 - (93.00, 167.00)</Location>
+      <Location>smoke.2 - (422.50, 218.00)</Location>
+      <Location>smoke.3 - (472.50, 216.00)</Location>
+    </Locations>
+    <Sizes>
+      <Size>fire.1 - (100, 180)</Size>
+      <Size>smoke.1 - (186, 166)</Size>
+      <Size>smoke.2 - (205, 154)</Size>
+      <Size>smoke.3 - (101, 146)</Size>
+    </Sizes>
+  </Frame>
+  <Frame number="27">
+    <Classes>fire - 1, smoke - 2</Classes>
+    <Locations>
+      <Location>fire.1 - (204.00, 206.00)</Location>
+      <Location>smoke.1 - (94.00, 174.00)</Location>
+      <Location>smoke.2 - (451.50, 223.00)</Location>
+    </Locations>
+    <Sizes>
+      <Size>fire.1 - (100, 180)</Size>
+      <Size>smoke.1 - (188, 164)</Size>
+      <Size>smoke.2 - (149, 144)</Size>
+    </Sizes>
+  </Frame>
+  <Frame number="28">
+    <Classes>fire - 1, smoke - 2</Classes>
+    <Locations>
+      <Location>fire.1 - (208.50, 212.50)</Location>
+      <Location>smoke.1 - (96.00, 180.00)</Location>
+      <Location>smoke.2 - (426.50, 229.00)</Location>
+    </Locations>
+    <Sizes>
+      <Size>fire.1 - (99, 181)</Size>
+      <Size>smoke.1 - (192, 164)</Size>
+      <Size>smoke.2 - (205, 150)</Size>
+    </Sizes>
+  </Frame>
+  <Frame number="29">
+    <Classes>fire - 1, smoke - 2</Classes>
+    <Locations>
+      <Location>fire.1 - (206.00, 207.50)</Location>
+      <Location>smoke.1 - (95.00, 176.50)</Location>
+      <Location>smoke.2 - (427.50, 225.00)</Location>
+    </Locations>
+    <Sizes>
+      <Size>fire.1 - (98, 179)</Size>
+      <Size>smoke.1 - (190, 163)</Size>
+      <Size>smoke.2 - (203, 150)</Size>
+    </Sizes>
+  </Frame>
+  <Frame number="30">
+    <Classes>fire - 1, smoke - 2</Classes>
+    <Locations>
+      <Location>fire.1 - (204.50, 209.00)</Location>
+      <Location>smoke.1 - (94.00, 176.50)</Location>
+      <Location>smoke.2 - (424.50, 224.00)</Location>
+    </Locations>
+    <Sizes>
+      <Size>fire.1 - (99, 178)</Size>
+      <Size>smoke.1 - (188, 163)</Size>
+      <Size>smoke.2 - (203, 148)</Size>
+    </Sizes>
+  </Frame>
+  <Frame number="31">
+    <Classes>fire - 1, smoke - 2</Classes>
+    <Locations>
+      <Location>fire.1 - (203.50, 205.50)</Location>
+      <Location>smoke.1 - (94.00, 174.50)</Location>
+      <Location>smoke.2 - (445.50, 219.00)</Location>
+    </Locations>
+    <Sizes>
+      <Size>fire.1 - (99, 179)</Size>
+      <Size>smoke.1 - (188, 163)</Size>
+      <Size>smoke.2 - (161, 148)</Size>
+    </Sizes>
+  </Frame>
+</Frames>
