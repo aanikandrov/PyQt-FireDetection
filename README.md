@@ -1,6 +1,6 @@
 # PyQt-FireDetection
 
-Приложение для обнаружения огня и дыма на изображении или с вебкамеры
+Приложение для обнаружения огня и дыма на изображении или видео с камеры
 
 
 
@@ -13,7 +13,7 @@
 Использовалась нейросеть YOLO11 ultralytics
 
 
-Модель обучалась на датасете https://universe.roboflow.com/mytest-blult/fire-smoke-detection-eozii
+Модель обучалась на датасете https://www.kaggle.com/datasets/roscoekerby/firesmoke-detection-yolo-v9/data
 
 
 
@@ -22,6 +22,6 @@
 Примеры вывода информации о детекции в прикреплённых TXT и XML файлах
 
 
-![image](https://github.com/user-attachments/assets/2668fc01-c026-4db4-8567-d7606ca4c0fe)
+![image](https://github.com/user-attachments/assets/ae5b14b7-c5e9-49f6-b0c6-60dba513bf4b)
 
 
