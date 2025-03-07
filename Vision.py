@@ -1,4 +1,4 @@
-
+import torch
 from PyQt5.QtWidgets import QGraphicsScene
 
 from ultralytics import YOLO
@@ -7,18 +7,34 @@ import ImagesWork
 
 
 def training():
-    model = YOLO("yolo11n.pt")
+
+    device = 'cuda' if torch.cuda.is_available() else 'cpu'
+    if torch.cuda.is_available():
+        print("Используется GPU")
+        print(f"GPU: {torch.cuda.get_device_name(0)}")
+    else:
+        print("Используется CPU (GPU не доступен)")
+
+    model = YOLO('yolo11n.pt').to(device)
     results = model.train(
-        data='D:/Fire/data.yaml',
+        data='data.yaml',
         imgsz=640,
-        epochs=2,
+        epochs=8,
         batch=8,
-        name='model')
+        lr0=1e-4,
+        dropout=0.15,
+        name='model',
+        device=device
+    )
 
 
 def pred_photo(sample_path):
     model_path = 'best.pt'
     model = YOLO(model_path)
+
+    device = 'cuda' if torch.cuda.is_available() else 'cpu'
+    print(device)
+    model.to(device)
 
     results = model.predict(source=sample_path,
                             imgsz=640)

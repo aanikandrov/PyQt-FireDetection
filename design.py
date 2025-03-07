@@ -5,6 +5,9 @@ from collections import Counter
 
 import cv2
 import numpy as np
+
+
+import torch
 # Form implementation generated from reading ui file 'D:/design.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.9
@@ -109,7 +112,9 @@ class Ui_MainWindow(object):
     def functionaliti(self, MainWindow):
         self.thread_pool = QThreadPool()
 
-        self.tabCamera_pushPlay.clicked.connect(self.video)
+        #self.tabCamera_pushPlay.clicked.connect(self.video)
+        # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        self.tabCamera_pushPlay.clicked.connect(Vision.training)
         self.tabCamera_pushPredict.clicked.connect(self.start_predict)
 
         self.tabImage_pushOpen.clicked.connect(self.open_image_2)
@@ -188,6 +193,17 @@ class Ui_MainWindow(object):
 
         model_path = 'best.pt'
         model = YOLO(model_path)
+
+        device = 'cuda' if torch.cuda.is_available() else 'cpu'
+        if torch.cuda.is_available():
+            print("Используется GPU")
+            print(f"GPU: {torch.cuda.get_device_name(0)}")
+        else:
+            print("Используется CPU (GPU не доступен)")
+
+        model.to(device)
+        print(device)
+
         cap = cv2.VideoCapture(0)
 
         colors = [ (255, 0, 0), (0, 255, 0), (0, 0, 255) ]
@@ -256,7 +272,7 @@ class Ui_MainWindow(object):
                         class_name = classes_names[int(class_id)]
                         color = colors[int(class_id) % len(colors)]
                         x1, y1, x2, y2 = box
-                        cv2.rectangle(frame, (x1, y1), (x2, y2), color, 2)
+                        cv2.rectangle(frame, (x1, y1), (x2, y2), color, 5)
                         cv2.putText(frame, class_name, (x1, y1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, color, 2)
 
                 height, width, channel = frame.shape
