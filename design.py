@@ -112,9 +112,8 @@ class Ui_MainWindow(object):
     def functionaliti(self, MainWindow):
         self.thread_pool = QThreadPool()
 
-        #self.tabCamera_pushPlay.clicked.connect(self.video)
-        # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-        self.tabCamera_pushPlay.clicked.connect(Vision.training)
+        self.tabCamera_pushPlay.clicked.connect(self.video)
+        #self.tabCamera_pushPlay.clicked.connect(Vision.training)
         self.tabCamera_pushPredict.clicked.connect(self.start_predict)
 
         self.tabImage_pushOpen.clicked.connect(self.open_image_2)
